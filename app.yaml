@@ -1,0 +1,4 @@
+runtime: python39
+service: fastapi-spark-docker
+instance_class: F4_1G
+entrypoint: gunicorn -w 4 -k uvicorn.workers.UvicornWorker app/main:app
