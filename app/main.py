@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.get("/")
 async def Home():
-    return "só o favo de mel"
+    return "Welcome to FastAPI + Kafka + Docker project"
 
 
 app.include_router(router.route)
