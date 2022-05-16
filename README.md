@@ -47,10 +47,10 @@ Installing the required libraries:
 
 ```pip3 install fastapi aiokafka uvicorn```
 
-Starting the application:
+Starting the application (You *should not use* ```--reload``` in **production**.):
 
 ```uvicorn main:app --reload```
 
-If you want to run the project in a Google Cloud, you will need to install the gunicorn:
+If you want to run the project in Google Cloud, you will need to install the gunicorn:
 
 ```pip3 install gunicorn```
