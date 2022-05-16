@@ -12,14 +12,14 @@ First of all, you need to configure your enviroment:
 * Docker-compose installed
 
 ## 📫 Pull or clone the kafka-fastapi-docker
-1. git init
-2. git remote add origin https://github.com/harlemmuniz/kafka-fastapi-docker.git
-3. git pull origin main
+1. ```git init```
+2. ```git remote add origin https://github.com/harlemmuniz/kafka-fastapi-docker.git```
+3. ```git pull origin main```
 
 or
 
-1. git init
-2. git clone https://github.com/harlemmuniz/kafka-fastapi-docker.git
+1. ```git init```
+2. ```git clone https://github.com/harlemmuniz/kafka-fastapi-docker.git```
 
 ## 🚀 Installing and configuringkafka-fastapi-docker
 
@@ -46,6 +46,10 @@ Activating the virtual environment:
 Installing the required libraries:
 
 ```pip3 install fastapi aiokafka uvicorn```
+
+Starting the application:
+
+```uvicorn main:app --reload```
 
 If you want to run the project in a Google Cloud, you will need to install the gunicorn:
 
